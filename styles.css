@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+
+body {
+  background: rgba(253, 255, 222, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(253, 255, 222, 0.3);
+}
+
+p {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+a {
+  font-size: 1rem;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.btn {
+  border-radius: 3rem;
+  padding: 0.5rem;
+  display: flex;
+  margin: 3rem auto;
+  border: 0.5px solid blueviolet;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: aliceblue;
+  background-color: darkblue;
+  transform: scale(1.1);
+  padding: 1rem 3rem;
+}
+
+.article {
+  margin: 0.5rem;
+  padding: 1rem;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  /* From https://css.glass */
+  background: rgba(77, 76, 81, 0.12);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(77, 76, 81, 0.3);
+}
+
+.article:hover {
+  transform: scale(1.01);
+  background: rgba(149, 167, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(149, 167, 255, 0.3);
+}
+
+.image {
+  height: 300px;
+  width: 600px;
+}
+
+@media screen and (max-width: 415px) {
+  .article {
+    width: 100%;
+    aspect-ratio: 100/29;
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+
+  .image {
+    height: 150px;
+    width: 300px;
+    padding: 0.5rem;
+  }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+  a {
+    font-size: 0.8rem;
+  }
+  h1 {
+    font-size: 1.5em;
+    padding: 1.5rem 1rem;
+  }
+}

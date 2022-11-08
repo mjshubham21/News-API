@@ -1,0 +1,17 @@
+HTML:
+(Saw btn on yt didn't figure out how to load on load.
+btn to load news onclick.
+
+CSS:
+Subjective.
+
+JS:
+https://newsapi.org/ - get your api key from here.
+make a function to access news and use fetch api.
+include country code and apikey.
+.then convert output to JSON().
+access the response and create divs to display news using for loop.
+get element by id output from html and add inner html dynamically.
+access img, articles, headlines etc.
+For err use proxy server, https://cors-anywhere.herokuapp.com before url.
+after url "," headers: new Headers({"X-Requested With":"abcd"})
