@@ -41,6 +41,24 @@ a {
   padding: 1rem 3rem;
 }
 
+.git {
+  border-radius: 3rem;
+  padding: 0.5rem;
+  display: flex;
+  margin: 0 auto 1rem;
+  color: aliceblue;
+  background-color: darkblue;
+  border: 0.5px solid rgb(0, 81, 255);
+  cursor: pointer;
+}
+
+.git:hover {
+  color: white;
+  background-color: black;
+  transform: scale(1.1);
+  padding: 1rem 3rem;
+}
+
 .article {
   margin: 0.5rem;
   padding: 1rem;
